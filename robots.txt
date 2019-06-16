@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://fanmatics.com/sitemap.xml

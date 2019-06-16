@@ -1,0 +1,10 @@
+{
+  "short_name": "FanMatics",
+  "name": "FanMatics",
+  "icons": [],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}

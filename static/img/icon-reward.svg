@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-reward</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="28.898738%" y1="0%" x2="70.4420565%" y2="97.2949783%" id="linearGradient-1">
+            <stop stop-color="#DF00FF" offset="0%"></stop>
+            <stop stop-color="#505050" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="28.898738%" y1="0%" x2="71.5970553%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#DF00FF" offset="0%"></stop>
+            <stop stop-color="#1800FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-reward">
+            <circle id="Combined-Shape" fill="url(#linearGradient-1)" opacity="0.0969819568" cx="149.579388" cy="149.631619" r="149.5"></circle>
+            <polygon id="Rectangle" fill="url(#linearGradient-2)" opacity="0.617474724" points="101 108 199 108 199 174.804251 150 205 101 174.804251"></polygon>
+        </g>
+    </g>
+</svg>
