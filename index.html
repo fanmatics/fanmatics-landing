@@ -5,15 +5,15 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
         <title>FanMatics — Social Rewards SaaS</title>
         <meta name="description" content="We're rethinking refer-a-friend using your whole audience. Get in touch at hi@fanmatics.com"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
         <meta name="robots" CONTENT="index, follow"/>
 
         <link rel="canonical" href="https://fanmatics.com"/>
         <link rel="manifest" href="site.webmanifest"/>
         <link rel="apple-touch-icon" href="icon.png"/>
 
-        <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
         <link rel="stylesheet" type="text/css" href="static/css/mailchimp-inline.css?11"/>
+        <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
 
         <script src="static/js/mailchimp-inline.js"></script>
     </head>
@@ -23,16 +23,19 @@
         <![endif]-->
 
         <div class="backdrop">
-          <div class="icon icon--reward reward--1"></div>
-          <div class="icon icon--reward reward--2"></div>
-          <div class="icon icon--reward reward--3"></div>
-          <div class="icon icon--reward reward--4"></div>
-          <div class="icon icon--reward reward--5"></div>
+          <div class="mod__overflowhidden">
+            <div class="icon icon--reward reward--1"></div>
+            <div class="icon icon--reward reward--2"></div>
+            <div class="icon icon--reward reward--3"></div>
+            <div class="icon icon--reward reward--4"></div>
+            <div class="icon icon--reward reward--5"></div>
+          </div>
         </div>
 
         <div class="header">
           <a href="/"><div class="fanmatics-logo"></div></a>
-          <div class="mod__flex mod__flex--center">
+          <div class="navigation__toggle js-navtoggle"></div>
+          <div class="navigation__container mod__flex mod__flex--center">
             <ul class="navigation">
               <li class="navigation__item"><a class="a a--selected" href="/">Product</a></li>
               <li class="navigation__item"><a class="a" href="/blog">Blog</a></li>
@@ -43,25 +46,21 @@
 
         <div class="divider"></div>
 
-        <div class="contact-cta" style="opacity: 0">
-          <div>Call us free of charge</div>
-          <div>+49 800 123 45 678</div>
-        </div>
-
-        <div class="section mod__marginbottom--6">
+        <div class="section mod__marginbottom--4">
           <h1 class="h1 animate">Convert with<br>Social Rewards.</h1>
           <p class="p mod__maxwidth--38 animate">Boost your signups with FanMatics. Let your audience unlock digital rewards through social interaction. Never mess with reward logistics ever again.</p>
         </div>
 
         <div class="clearfix"></div>
 
+        <div class="divider divider--mobile"></div>
         <div class="signup-wrapper animate">
           <div class="signup-box mod__display--inlineblock">
             <form class="signup-form" action="https://mc.us16.list-manage.com/subscribe/post-json?u=5f0d4c3753829f314f18a6314&id=0b96174867" method="GET">
               <input type="hidden" name="mc_signupsource" value="hosted">
               <div class="multiple-inputs">
                 <input class="input email-field" placeholder="name@company.com" type="email" maxLength="64" name="EMAIL" value="" id="mc-EMAIL" required>
-                <button type="submit" name="submit_form" value="" class="button submit mod__fm-gradient" type="submit">Learn More!</button>
+                <button type="submit" name="submit_form" value="" class="button button__submit submit mod__fm-gradient" type="submit">Learn More</button>
               </div>
             </form>
           </div>
