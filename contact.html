@@ -124,6 +124,11 @@ Wir widersprechen an dieser Stelle der Nutzung unserer Kontaktdaten für die Zus
               delay = delay + Math.floor(Math.random() * (Math.floor(1) - Math.ceil(1) + 1)) + Math.ceil(1);
               window.setTimeout(() => {e.classList.add('animated')}, delay * 100)
             })
+
+            document.querySelector('.navigation__toggle').addEventListener('click', e => {
+              document.querySelector('.navigation__container').classList.toggle('mod--visible');
+            })
+            
           });
         </script>
     </body>
