@@ -143,23 +143,6 @@ input[type="submit"] {
   }
 }
 
-.status-box {
-  width: 100vw;
-  height: 5rem;
-  font-size: 1.4rem;
-  max-width: initial;
-  position: fixed;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  opacity: 1;
-  transition: opacity ease .5s;
-}
-
 .status-box--loading {
   display: inline-block;
   min-width: 20rem;
@@ -320,7 +303,7 @@ input[type="submit"] {
   align-items: center;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   opacity: 1;
   transition: opacity ease .5s;
 }
