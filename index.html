@@ -12,8 +12,8 @@
         <link rel="manifest" href="site.webmanifest"/>
         <link rel="apple-touch-icon" href="icon.png"/>
 
-        <link rel="stylesheet" type="text/css" href="static/css/mailchimp-inline.css?11"/>
-        <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="static/css/mailchimp-inline.css?i91f1g4"/>
+        <link rel="stylesheet" type="text/css" href="static/css/main.css?i91f1g4"/>
 
         <script src="static/js/mailchimp-inline.js"></script>
     </head>
@@ -23,7 +23,7 @@
         <![endif]-->
 
         <div class="backdrop">
-          <div class="mod__overflowhidden">
+          <div class="mod--overflowhidden">
             <div class="icon icon--reward reward--1"></div>
             <div class="icon icon--reward reward--2"></div>
             <div class="icon icon--reward reward--3"></div>
@@ -35,7 +35,7 @@
         <div class="header">
           <a href="/"><div class="fanmatics-logo"></div></a>
           <div class="navigation__toggle js-navtoggle"></div>
-          <div class="navigation__container mod__flex mod__flex--center">
+          <div class="navigation__container mod--flex mod--flex--center">
             <ul class="navigation">
               <li class="navigation__item"><a class="a a--selected" href="/">Product</a></li>
               <li class="navigation__item"><a class="a" href="/blog">Blog</a></li>
@@ -45,22 +45,23 @@
         </div>
 
         <div class="divider"></div>
+        <br>
 
-        <div class="section mod__marginbottom--4">
+        <div class="section mod--marginbottom--4">
           <h1 class="h1 animate">Convert with<br>Social Rewards.</h1>
-          <p class="p mod__maxwidth--38 animate">Boost your signups with FanMatics. Let your audience unlock digital rewards through social interaction. Never mess with reward logistics ever again.</p>
+          <p class="p mod--maxwidth--38 animate">Boost your signups with FanMatics. Let your audience unlock digital rewards through social interaction. Never mess with reward logistics ever again.</p>
         </div>
 
         <div class="clearfix"></div>
 
         <div class="divider divider--mobile"></div>
         <div class="signup-wrapper animate">
-          <div class="signup-box mod__display--inlineblock">
+          <div class="signup-box mod--display--inlineblock">
             <form class="signup-form" action="https://mc.us16.list-manage.com/subscribe/post-json?u=5f0d4c3753829f314f18a6314&id=0b96174867" method="GET">
               <input type="hidden" name="mc_signupsource" value="hosted">
               <div class="multiple-inputs">
                 <input class="input email-field" placeholder="name@company.com" type="email" maxLength="64" name="EMAIL" value="" id="mc-EMAIL" required>
-                <button type="submit" name="submit_form" value="" class="button button__submit submit mod__fm-gradient" type="submit">Learn More</button>
+                <button type="submit" name="submit_form" value="" class="button button__submit submit mod--fm-gradient" type="submit">Learn More</button>
               </div>
             </form>
           </div>
@@ -92,7 +93,7 @@
         
         <div class="footer">
             <div class="footer__row">
-                <p class="mod__maxwidth--12">Join us while we’re ramping up and receive 50% off on your first 6 months! Call FanMatics free of charge:
+                <p class="mod--maxwidth--12">Join us while we’re ramping up and receive 50% off on your first 6 months! Call FanMatics free of charge:
                   <br><br><a class="a" href="tel:+494084206549">+49 40 84206549</a><br>
                   <a href="/contact" class="a">Legal Information</a>
                 </p>
@@ -143,6 +144,11 @@
               delay = delay + Math.floor(Math.random() * (Math.floor(1) - Math.ceil(1) + 1)) + Math.ceil(1);
               window.setTimeout(() => {e.classList.add('animated')}, delay * 100)
             })
+
+            document.querySelector('.navigation__toggle').addEventListener('click', e => {
+              document.querySelector('.navigation__container').classList.toggle('mod--visible');
+            })
+            
           });
         </script>
     </body>
