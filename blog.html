@@ -32,7 +32,8 @@
 
         <div class="header">
           <a href="/"><div class="fanmatics-logo"></div></a>
-          <div class="mod--flex mod--flex--center">
+          <div class="navigation__toggle js-navtoggle"></div>
+          <div class="navigation__container mod--flex mod--flex--center">
             <ul class="navigation">
               <li class="navigation__item"><a class="a" href="/">Product</a></li>
               <li class="navigation__item"><a class="a a--selected" href="/blog">Blog</a></li>
@@ -128,7 +129,7 @@
             document.querySelector('.navigation__toggle').addEventListener('click', e => {
               document.querySelector('.navigation__container').classList.toggle('mod--visible');
             })
-            
+
           });
         </script>
     </body>
